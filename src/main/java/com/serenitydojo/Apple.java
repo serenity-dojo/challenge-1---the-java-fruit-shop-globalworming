@@ -1,4 +1,5 @@
 package com.serenitydojo;
 
-public class Apple implements Fruit {
+public class Apple extends Fruit {
+
 }

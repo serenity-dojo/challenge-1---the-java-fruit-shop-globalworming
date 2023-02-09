@@ -13,7 +13,7 @@ requirements, and write the additional application code you need to make them wo
 - *The Catalog* should list the names of the *currently available* fruit in alphabetical order
 - The Catalog should report the price of a given type of fruit
 - The Catalog should throw a FruitUnavailableException if the fruit is not currently available
-- You can add items to your shopping cart, which should keep a running total.
-- When you buy 5 kilos or more of any fruit, you get a 10% discount.
+- You can add items to your *shopping cart*, which should keep a running total.
+- When you buy 5 *kilos* or more of any fruit, you get a 10% discount.
 
 You should end up with at least 10 test cases. The first one is written for you.
