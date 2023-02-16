@@ -17,3 +17,20 @@ requirements, and write the additional application code you need to make them wo
 - When you buy 5 *kilos* or more of any fruit, you get a 10% discount.
 
 You should end up with at least 10 test cases. The first one is written for you.
+
+
+Based on what I know now
+
+- the fruitshop has a catalog
+- the catalog remembers prices per kg for fruit, e.g.
+    - Apples: $4.00
+    - Oranges: $5.50
+    - Bananas: $6.00
+    - Pears: $4.50
+- you can add catalog items with a kg amount and the fruit
+- the catalog lists available fruit in alphabetical order
+- you can set, read and update the catalogs prices per kg
+- You can add items to your *shopping cart*, which should keep a running total.
+- The Catalog should throw a FruitUnavailableException if the fruit is not currently available
+- When you buy 5 *kilos* or more of any fruit, you get a 10% discount.
+
